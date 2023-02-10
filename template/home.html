@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Account</title>
+<link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}">        
+<style>
+		body{
+		background: #cccccc;
+		background-image: url();
+	}
+</style>    
+</head>
+<body>
+<div class="container">
+	<br>
+	<br>
+	<div class="row bg-blue-500">
+		<marquee><h2>WELCOME TO Ellawitch's site</h2></marquee>
+	</div>
+	<br>
+	<br>
+
+	<div class="row">	
+		<h3 align="center"> Hello    <strong>{{session.name}}, do you have your broom? <br> if so get ready for a ride in air </h3>
+			<h3><a href="/logout">LOGOUT</a></strong></h3>
+	</div>
+	<br><br>
+
+</div>
+</body>
+</html>
